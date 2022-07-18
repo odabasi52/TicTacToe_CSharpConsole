@@ -43,8 +43,12 @@ namespace TicTacToe
                             ResetArea();
                             draw = 0;
                         }
+                        
                         else if (output == "exit")
                             break;
+                        
+                        else
+                            continue;                       
                     }
                     #endregion
 
